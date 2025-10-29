@@ -63,10 +63,6 @@ Send the commands:
 # Zero Position (to stabilize the robot)
  ros2 topic pub --rate 10 /arm_position_controller/commands std_msgs/msg/Float64MultiArray "{data: [0.0, 0.0, 0.0, 0.0]}"
 ```
-```bash
-# Movement Example (Base 90°, Shoulder 45°, Elbow -15°)
- ros2 topic pub --once /arm_position_controller/commands std_msgs/msg/Float64MultiArray "{data: [1.57, 0.78, -0.26, 0.0]}"
-```
 
 To visualize the real-time video feed from the simulated camera in Gazebo: Launch rqt_image_view (after running source in a new terminal) and select the /camera/image topic:
 ```bash
