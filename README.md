@@ -1,5 +1,6 @@
 # 🤖 Project: ARMANDO Robotic Manipulator Simulation (4 DoF)
 Course: Robotic Lab 
+
 Student: Leonardo Riccardi / P38000358 
 
 # 🎯 Project Objective
