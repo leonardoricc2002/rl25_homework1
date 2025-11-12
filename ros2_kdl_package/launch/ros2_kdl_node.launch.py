@@ -45,7 +45,7 @@ def generate_launch_description():
         period=5.0,  # secondi di attesa prima di eseguire il nodo
         actions=[ros2_kdl_node]
     )
-
+    
     return LaunchDescription([
         ctrl_arg,
         auto_start_arg,
